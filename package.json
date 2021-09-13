@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "The streaming media homework assignment.",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Completete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcnuttys/streaming-media-assignment.git"
+  },
+  "author": "Isaac McNutt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcnuttys/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/mcnuttys/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
